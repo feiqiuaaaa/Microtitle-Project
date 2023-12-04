@@ -1,37 +1,23 @@
-# MyFirstGiteeRepository
+# 微头条服务项目
+> 技术栈
+- JAVA 作为开发语言,版本为JDK17
+- Tomcat 作为服务容器,版本为10.1.7
+- Mysql8 用于项目存储数据
+- SpringMVC 用于控制层实现前后端数据交互
+- MyBatis-Plus 用于实现数据的CURD
+- Druid 用于提供数据源的连接池
+- SpringBoot 作为项目基础架构
+- MD5 用于用户密码的加密
+- Jwt 用于 token 的生成和校验
+- Jackson 用于转换 JSON
 
-#### 介绍
-第一个码云仓库
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+> 实现功能
+- 用户功能
+    - 注册功能
+    - 登录功能
+    - jwt实现
+- 头条新闻
+    - 新闻的分页浏览
+    - 通过标题关键字搜索新闻
+    - 查看新闻详情
+    - 新闻的修改和删除
